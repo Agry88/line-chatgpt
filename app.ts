@@ -1,7 +1,7 @@
 import * as line from '@line/bot-sdk'
 import express from 'express'
 import config from './src/helpers/config'
-import handleLineEvent from './src/helpers/setupLineClient'
+import handleLineEvent from './src/helpers/line/setupLineClient'
 
 const app = express()
 app.post('/webhook', line.middleware(config), (req, res) => {
