@@ -1,0 +1,3 @@
+CHANNEL_ID = int
+CHANNEL_SECRET = string
+CHANNEL_ACCESS_TOKEN = string
